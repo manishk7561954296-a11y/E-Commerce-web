@@ -1,0 +1,370 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    /* margin: 10px; */
+}
+
+#header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.header-div {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.header-ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.header-list {
+    margin-left: 10px;
+}
+
+#search-bar {
+    height: 40px;
+    width: 300px;
+    border: 1px solid white;
+
+    /* background-color: white; */
+
+}
+
+.input-container {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    border: 1px solid dodgerblue;
+
+
+}
+
+.icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+span {
+    color: green;
+}
+
+
+.nav-link {
+    color: white;
+}
+
+.front-img-div {
+    height: 350px;
+    width: 100vw;
+    background-image: url(../IMAGE/sl2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 40px;
+    font-family: "Playwrite BE WAL Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.front-img-div h1 span {
+    color: rgb(100, 222, 165);
+    margin-top: 50px;
+}
+
+.btn {
+    background-color: darkgreen;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 12px
+}
+
+.btn:hover {
+    background-color: darkolivegreen;
+}
+
+.category-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 16px;
+}
+
+.category-a {
+    padding: 28px 10px;
+    border: 1px solid rgb(86, 83, 83);
+    border-radius: 10px;
+    background-color: #d0eade;
+    text-align: center;
+    font-size: 35px;
+}
+.category-a:hover{
+    background-color:#abedce ;
+}
+
+.category-a b {
+    display: block;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #073c22;
+    /* color: white; */
+    color: rgb(42, 205, 72);
+
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer1 {
+    height: 180px;
+    width: 350px;
+
+    color: rgb(86, 177, 102);
+
+
+    margin-right: auto;
+
+    padding-left: 50px;
+    justify-content: space-around;
+}
+
+.footer-p {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.a {
+    color: rgb(86, 177, 102);
+}
+
+.inner-heading {
+    text-align: center;
+}
+
+#product-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.product-div {
+    height: 340px;
+    width: 250px;
+    margin: 10px;
+    padding-left: 35px;
+    padding-right: 33px;
+    border: 1px solid #dce8df;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.product-div:hover{
+    background-color: whitesmoke;
+
+}
+.rounded {
+    height: 150px;
+    width: 150px;
+
+}
+
+.old-price {
+    text-decoration: line-through;
+    font-size: small;
+    color: black;
+    margin-left: 15px;
+}
+
+.price {
+    font-size: large;
+    color: green;
+}
+
+.product-detail-a {
+    width: 100%;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 10px 37px;
+    margin-top: 0%;
+    color: green;
+}
+
+.product-div-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+}
+
+.product-section {
+    margin-top: 20px;
+}
+
+#achivment-section {
+    background-color: #b9d9de;
+    height: 210px;
+    width: 100vw;
+}
+
+.achi-head1 {
+    padding-top: 30px;
+    text-align: center;
+    color: #4eaa6f;
+}
+
+#achivment-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.achivment-div {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.achi-head {
+    text-align: center;
+    color: #4eaa6f;
+}
+
+/* cart - Style */
+#cart-div1 {
+    background-color: #d7e2ea;
+    height: 200px;
+    padding: 50px;
+}
+
+.cart-name-div {
+    display: inline-block;
+    align-items: center;
+}
+
+.cart-img {
+    height: 100px;
+    width: 100px;
+}
+
+.cart-button-div {}
+
+.cart-price {
+    display: inline;
+}
+
+.cart-btn {
+    padding: 1px 10px;
+    border: 1px solid #dce8df;
+    border-radius: 10px;
+    background-color: #e1d6d6;
+
+}
+
+#cart-section {
+    margin-top: 30px;
+
+}
+
+.cart-items {
+    border: 1px solid #dce8df;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-section-div2 {
+    width: 40vw;
+    border: 1px solid #dce8df;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-left: 10px;
+    justify-self: center;
+}
+
+.cart-section-div1 {
+    width: 70vw;
+    justify-self: center;
+}
+
+.cart-button-div {
+    padding-top: 30px;
+}
+
+.cart-summary-h1 {
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.cart-summary-p {
+    padding-left: 40px;
+}
+
+.cart-summary-total-p {
+    padding-left: 40px;
+}
+
+.cart-summary-btn {
+    margin-left: 80px;
+
+    margin-bottom: 40px;
+    padding: 10px 60px;
+}
+
+#cart-section1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cart-summary-span {
+    margin-left: 50dvh;
+}
+
+.cart-summary-total-span {
+    margin-left: 50dvh;
+}
+.cart-a{
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 10px 40px;
+    background-color: white;
+    color: green;
+    
+    
+}
+.cart-a:hover{
+    background-color: rgb(228, 214, 214);
+}
+.cart-a-div{
+    justify-self: center;
+    margin-top: 30px;
+}
